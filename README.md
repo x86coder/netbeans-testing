@@ -3,7 +3,7 @@ Java testing framwork with BDD (Cucumber) ☕
 
 Testing package: qa.x86coder.dev  
 Feature files: src/test/resources/qa/x86coder/dev/  
-Glue file: StepDefinitios.java  
+Glue file: StepDefinitions.java  
 Cucumber runner: **junit**
 
 ## Installation

@@ -4,4 +4,4 @@ Feature: Welcome Page
 Scenario: Load page
     Given I open browser
     When I go to home page
-    Then I should see page title as "Walmart Mexico"
+    Then I should see page title as "PCEL Súper tienda de cómputo | Envío a todo México"

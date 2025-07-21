@@ -7,6 +7,7 @@ package qa.x86coder.dev;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
+import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 /**
  *
@@ -16,5 +17,9 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin={"pretty"})
 public class RunCucumberTest {
-    
+    @BeforeClass
+    public static void setup(){
+        System.out.println("hello setup()");
+        System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
+    }
 }
