@@ -1,8 +1,8 @@
 # netbeans-testing
 Java testing framwork with BDD (Cucumber) ☕  
 
-Src package: qa.x86coder.netbeans.testing (**not used**)
-Testing package: qa.x86coder.dev
+Src package: qa.x86coder.netbeans.testing (**not used**)  
+Testing package: qa.x86coder.dev  
 Feature files in: src/test/resources/qa/x86coder/dev/  
 Glue file: StepDefinitions.java  
 Cucumber runner: **junit**
